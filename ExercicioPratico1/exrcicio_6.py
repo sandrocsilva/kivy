@@ -1,5 +1,5 @@
 num1 = input("Me informe 1 número: ")
 num2 = input("Me informe 1 número: ")
 num3 = input("Me informe 1 número: ")
-total = eval(num1) + eval(num2) + eval(num3)
+total = int(num1) + int(num2) + int(num3)
 print("A soma total dos números é:", total)
