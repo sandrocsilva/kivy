@@ -1,5 +1,8 @@
 n,x,y,z = map(int, input("Informe o intervalo e 3 números que deverão ser ignorados: ").split())
-for i in range(n):
-    if (i == x) or (i == y) or (i == z):
+count = 0
+while count <= n:
+    if (count == x) or (count == y) or (count == z):
+        count += 1
         continue
-    print(i,"Esse pode!")
+    print(count)
+    count += 1
